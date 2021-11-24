@@ -64,7 +64,7 @@
       <!--Герой-->
       <section class="section hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button btn" type="button">Заказать услугу</button>
+        <button class="hero-button btn" data-modal-open type="button">Заказать услугу</button>
       </section>
       <!--Особенности-->
       <section class="section features">
@@ -337,6 +337,7 @@
           </ul>
         </div>
       </section>
+		<!--Постоянные клиенты-->
       <section class="section clients">
         <div class="container">
           <h2 class="clients-title pre-title">Постоянные клиенты</h2>
@@ -453,6 +454,17 @@
         </div>
       </div>
     </footer>
+	 <!--Модальное окно-->
+	 <div class="backdrop is-hidden" data-modal>
+		 <div class="modal">
+			 <div class="close-field" data-modal-close>
+				 <svg class="close-icon">
+					 <use href="./images/icons.svg#icon-close"></use>
+				 </svg>
+			 </div>
+		 </div>
+	 </div>
+	 <!--Скрипты-->
     <script src="./js/modal.js"></script>
   </body>
 </html>
