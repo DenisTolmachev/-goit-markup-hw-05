@@ -602,7 +602,6 @@ footer {
   background-color: rgba(33, 150, 243, 0.9);
   padding: 0 24px;
   align-items: center;
-  opacity: 0;
   transition-property: transform, opasity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -617,7 +616,6 @@ footer {
 }
 
 .projects-item:hover .projects-explain {
-  opacity: 1;
   transform: translateY(0);
 }
 
